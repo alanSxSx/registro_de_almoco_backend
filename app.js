@@ -31,6 +31,6 @@ app.use('/', refeicoes);
 app.use('/', setores);
 
 // Iniciar o servidor na porta 8080, criar a função utilizando modelo Arrow function para retornar a mensagem de sucesso
-app.listen(8080, () => {
+app.listen(process.env.PORT || 8080, () => {
     console.log("Servidor iniciado na porta 8080: http://localhost:8080");
 });
