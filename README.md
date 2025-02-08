@@ -40,9 +40,6 @@ Rodar o projeto usando o nodemon
 Abrir o endereço no navegador para acessar a página inicial
 ### http://localhost:8080
 
-Comando SQL para criar a base de dados
-### CREATE DATABASE celke CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
 Sequelize é uma biblioteca Javascript que facilita o gerenciamento do banco de dados SQL
 ### npm install --save sequelize
 
